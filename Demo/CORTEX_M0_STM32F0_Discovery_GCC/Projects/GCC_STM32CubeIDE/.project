@@ -51,9 +51,14 @@
 			<locationURI>PARENT-2-PROJECT_LOC/Startup</locationURI>
 		</link>
 		<link>
+			<name>board</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/board</locationURI>
+		</link>
+		<link>
 			<name>Packages/CMSIS_5</name>
 			<type>2</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Packages/CMSIS_5</locationURI>
+			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
 			<name>Packages/FreeRTOS</name>
@@ -63,10 +68,35 @@
 		<link>
 			<name>Packages/STM32F0xx_HAL_Driver</name>
 			<type>2</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Packages/STM32F0xx_HAL_Driver</locationURI>
+			<locationURI>PARENT-5-PROJECT_LOC/STM32CubeF0/Drivers/STM32F0xx_HAL_Driver</locationURI>
+		</link>
+		<link>
+			<name>Packages/CMSIS_5/CMSIS</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Packages/CMSIS_5/Device</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
 			<name>Packages/FreeRTOS/Source</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Packages/CMSIS_5/CMSIS/Core</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Packages/CMSIS_5/CMSIS/RTOS2</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Packages/CMSIS_5/Device/ST</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
@@ -106,6 +136,21 @@
 			<locationURI>PARENT-4-PROJECT_LOC/Source/timers.c</locationURI>
 		</link>
 		<link>
+			<name>Packages/CMSIS_5/CMSIS/Core/Include</name>
+			<type>2</type>
+			<locationURI>PARENT-5-PROJECT_LOC/CMSIS_5/CMSIS/Core/Include</locationURI>
+		</link>
+		<link>
+			<name>Packages/CMSIS_5/CMSIS/RTOS2/FreeRTOS</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Packages/CMSIS_5/Device/ST/STM32F0xx</name>
+			<type>2</type>
+			<locationURI>PARENT-5-PROJECT_LOC/STM32CubeF0/Drivers/CMSIS/Device/ST/STM32F0xx</locationURI>
+		</link>
+		<link>
 			<name>Packages/FreeRTOS/Source/portable/ARM_CM0</name>
 			<type>2</type>
 			<locationURI>PARENT-4-PROJECT_LOC/Source/portable/GCC/ARM_CM0</locationURI>
@@ -114,6 +159,16 @@
 			<name>Packages/FreeRTOS/Source/portable/MemMang</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Packages/CMSIS_5/CMSIS/RTOS2/FreeRTOS/Include</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Packages/CMSIS_5/CMSIS/RTOS2/FreeRTOS/Include</locationURI>
+		</link>
+		<link>
+			<name>Packages/CMSIS_5/CMSIS/RTOS2/FreeRTOS/Source</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Packages/CMSIS_5/CMSIS/RTOS2/FreeRTOS/Source</locationURI>
 		</link>
 		<link>
 			<name>Packages/FreeRTOS/Source/portable/MemMang/heap_4.c</name>

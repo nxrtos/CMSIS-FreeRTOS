@@ -228,9 +228,7 @@ void StartDefaultTask(void *argument)
   for(;;)
   {
     osDelay(300);
-    //HAL_GPIO_TogglePin(GPIOC, LD4_Pin|LD3_Pin);
-    HAL_GPIO_TogglePin(GPIOC, LD3_Pin);
-    HAL_GPIO_TogglePin(GPIOC, LD4_Pin);
+    HAL_GPIO_TogglePin(GPIOC, LD4_Pin|LD3_Pin);
   }
   /* USER CODE END 5 */ 
 }

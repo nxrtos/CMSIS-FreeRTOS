@@ -1,0 +1,44 @@
+---
+Source Code Layout
+---
+
+This project needs external packages in the place in order to successful build.
+
+workspace   \
+            --	CMSIS-FreeRTOS
+            --	STM32CubeF0
+            --	CMSIS_5
+
+1. STM32CubeF0
+It needs STM32CubeF0 to put at side by side to the root of this repo.
+The package of STM32CubeF0 can be find at
+
+https://github.com/STMicroelectronics/STM32CubeF0.git
+or 
+https://github.com/nxrtos/STM32CubeF0.git
+
+Actully the package of STM32CubeF0 is a combination package contains
+more packages inside.  For this project uses following packages.
+	STM32F0xx_HAL_Driver    at  STM32CubeF0/Drivers/STM32F0xx_HAL_Driver
+	CMSIS_Device_STM32F0xx  at  STM32CubeF0/Drivers/CMSIS/Device/ST/STM32F0xx
+
+
+2. CMSIS_5
+It needs CMSIS_5 to put at side by side to the root of this repo.
+The package of CMSIS_5 can be find at
+
+https://github.com/ARM-software/CMSIS_5.git
+or 
+https://github.com/nxrtos/CMSIS_5.git
+
+Uses the part of CMSIS_Core_Include.  This part can actually be find
+in STM32CubeF0 at STM32CubeF0/Drivers/CMSIS/Core/Include/ but be a
+different version.
+
+3. CMSIS_5_CMSIS_RTOS2_FreeRTOS
+
+This package can be find at CMSIS-FreeRTOS/CMSIS/RTOS2/FreeRTOS/
+It looks need little more effort to integrate into the project. 
+So at this moment use 
+{Project_Root_Dir}/Packages/CMSIS_5/CMSIS/RTOS2/FreeRTOS
+
