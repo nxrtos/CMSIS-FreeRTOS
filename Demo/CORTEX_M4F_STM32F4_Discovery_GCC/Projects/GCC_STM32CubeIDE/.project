@@ -51,6 +51,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/Startup</locationURI>
 		</link>
 		<link>
+			<name>board</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/board</locationURI>
+		</link>
+		<link>
 			<name>Packages/CMSIS_5</name>
 			<type>2</type>
 			<locationURI>PARENT-2-PROJECT_LOC/Packages/CMSIS_5</locationURI>
@@ -61,14 +66,14 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>Packages/STM32F4xx_HAL_Driver</name>
-			<type>2</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Packages/STM32F4xx_HAL_Driver</locationURI>
-		</link>
-		<link>
 			<name>Packages/STM32_USB_Host_Library</name>
 			<type>2</type>
 			<locationURI>PARENT-2-PROJECT_LOC/Packages/STM32_USB_Host_Library</locationURI>
+		</link>
+		<link>
+			<name>Packages/stm32f4xx_hal_driver</name>
+			<type>2</type>
+			<locationURI>PARENT-5-PROJECT_LOC/stm32f4xx_hal_driver</locationURI>
 		</link>
 		<link>
 			<name>Packages/FreeRTOS/Source</name>

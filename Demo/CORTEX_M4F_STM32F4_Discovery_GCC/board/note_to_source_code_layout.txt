@@ -1,0 +1,13 @@
+---
+Source Code Layout
+---
+
+This project needs external packages in the place in order to successful build.
+
+
+It needs stm32f4xx_hal_driver to put at side by side to the root of this repo.
+The package of stm32f4xx_hal_driver can be find at
+
+https://github.com/STMicroelectronics/stm32f4xx_hal_driver.git
+or 
+https://github.com/nxrtos/stm32f4xx_hal_driver.git
